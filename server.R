@@ -7,10 +7,6 @@
 #    http://shiny.rstudio.com/
 #
 
-p <- c("shiny", "shinydashboard", "dplyr", "data.table", "gridExtra", "rmarkdown", "knitr")
-install.packages(p)
-
-
 library(shiny)
 library(gridExtra)
 library(rmarkdown)
