@@ -1,4 +1,5 @@
-
+p <- c("shiny", "shinydashboard", "dplyr", "data.table", "gridExtra", "rmarkdown", "knitr")
+install.packages(p)
 
 library(shiny)
 library(shinydashboard)
