@@ -1,5 +1,5 @@
 ---
-title: "Statistics and Econometrics for Humanitarian Data Analysis"
+title: "Statistics and Econometrics for Humanitarian Data"
 output: html_document
 runtime: shiny
 ---
@@ -28,13 +28,13 @@ The figure otherwise closed includes any case that is closed when a substantive 
 
 Formulas to measure __recognition rates__:
 
-$Recognition rate for a specific period=\frac{Successful applications for refugee status}{All the substantive decisions within that period}×100$
+$Recognition rate for a specific period=\frac{Successful applications for refugee status}{All the substantive decisions within that period}?100$
 
 Recognition rate calculations include cases of individual recognition and exclude prima facie cases. They also exclude any cases that were closed without a decision being made.  
 
-$Refugee recognition rate=\frac{# of recognised cases}{# of recognised + # of complementary + # of rejected cases}×100$
+$Refugee recognition rate=\frac{# of recognised cases}{# of recognised + # of complementary + # of rejected cases}?100$
 
-$Total recognition rate=\frac{# of recognised+# of complementary cases}{# of recognised + # of complementary + # of rejected cases}×100$
+$Total recognition rate=\frac{# of recognised+# of complementary cases}{# of recognised + # of complementary + # of rejected cases}?100$
 
 The complementary protection is a formal permission under national law, provided on humanitarian grounds to persons who are in need of international protection to reside in a country, and might not qualify for refugee status under conventional refugee criteria.
 The last two formulas only include cases of individual recognition, not cases where recognition was granted on a group basis. They include both new processed cases and cases imported into the period as pending and on which a substantive decision has been made. They combine both Government and UNHCR data if necessary. Finally, they calculate separate rates for each individual instance level of the decision process.
