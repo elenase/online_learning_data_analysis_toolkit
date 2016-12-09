@@ -1,0 +1,36 @@
+---
+title: "Advanced Econometrics"
+output: html_document
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+This course is mainly based on the [lecture notes](http://schmidheiny.name/teaching/shortguides.htm) of Kurt Schmidheiny.
+The knowledge acquired in the course _Introductory Econometrics_ is required to understand the subjects presented in the current one. Since this course is more technical then the previous ones, the formulas do not need to be known by heart, and totally understood (they sometimes require a deeper knowledge of econometrics in order to do that). The key point is to understand, for instance why sometimes we have to use tobit/probit/logit models instead of linear ones, to correctly interpret the coefficients and the marginal effects, to understand why they differ from each other, and which one we need for our analysis. The course include implementations of the analyses described in each chapter in R and Stata, and it also includes general quick guides of R and Stata.
+
+### Ch. 1 - The Multiple Linear Regression Model
+__Key concepts__: OLS Assumptions and Estimation, Goodness of Fit, Small Sample Properties, Tests in Small Samples, Confidence Intervals in Small Sample, Asymptotic Properties of the OLS Estimator, Asymptotic Tests, Confidence Intervals in Large Samples, Small Sample vs. Asymptotic Properties, More Known Issues (Non-linear Functional Form, Aggregate Regressors, Omitted Variables, Irrelevant Regressors, Reverse Causality, Measurement Error, Mutlicollinearity). 
+
+### Ch. 2 - Functional Form in the Linear Model
+__Key concepts__: Log-Linear, Semi-Log, Polynomial, Inverse, Dummy Variables, Interaction Terms, Spline Functions.
+
+### Ch. 3 - Heteroskedasticity in the Linear Model
+__Key concepts__: Groupwise Heteroskedasticity, Estimation with OLS, Estimating the Variance of the OLS Estimator, Testing for Heteroskedasticity, Estimation with GLS/WLS when the Variance Matrix is Known, Estimation with FGLS/FWLS when the Variance Matrix is Unknown.
+
+### Ch. 4 - Clustering in the Linear Model
+__Key concepts__: Random Cluster-Specific Effects, Estimation with OLS, Estimating Correct Standard Errors, Efficient Estimation with GLS, Estimating Correct Standard Errors with Random Cluster-Specific Effects.
+
+### Ch. 5 - Instrumental Variables
+__Key concepts__: Canonical Examples (Omitted Variables, Simultaneity and Reversed Causality, Measurement Errors), Estimation with OLS, Estimation with IV (2SLS), Asymptotic Properties of the IV Estimators, What are Valid Instruments, Testing for Exogeneity of the Instruments, Testing for Relevance of the Instruments, Testing for Exogeneity of the Regressors.
+
+### Ch. 6 - Panel Data: Fixed and Random Effects
+__Key concepts__: The Random Effects Model, The Fixed Effects Model, Estimation with Pooled OLS, Random Effects Estimation, Fixed Effects Estimation, Leas Squared Dummy Variable Estimation (LSDV), First Difference Estimator, Time Fixed Effects, Random Effects vs. Fixed Effects Estimation.
+
+### Ch. 7 - Binary response Models
+__Key concepts__: The Econometric Model: Probit and Logit, Latent Variable Model, Interpretation of the Parameters, Estimation with Miximum Likelihood, Estimation with OLS.
+
+### Ch. 8 -  Limited Dependent Variable
+__Key concepts__: Truncation, Truncated Regression, Interpretation of Parameters, Estimation; Censoring, Tobit Model Type I, Interpretation of Parameters, Estimation; Selection, Heckman Selection Model, Interpretation of Parameters, Estimation, Estimation with Maximum Likelihood, Estimation with Heckman's Two-Step Procedure.
+
