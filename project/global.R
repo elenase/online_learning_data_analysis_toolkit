@@ -1,6 +1,6 @@
 p <- c("shiny", "shinydashboard", "rmarkdown", "circlize", "data.table", "xlsx", "plotly")
 install.packages(p)
-
+install.packages('rJava',,'http://www.rforge.net/')
 
 library(shiny)          # Web App
 library(shinydashboard) # Dashboard Styling

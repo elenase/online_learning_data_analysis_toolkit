@@ -1,0 +1,13 @@
+---
+title: "General material about data visualization"
+output: html_document
+runtime: shiny
+---
+
+***
+For a more detailed guidance on data visualization and design principles please use the material
+
+
+* ["ODM Module 21 - Data Visualization and Design Principles"](https://unhcr.csod.com/client/unhcr/default.aspx) on UNHCR Learn & Connect
+* [General Infographics Know-How](http://data.unhcr.org/imtoolkit/chapters/view/info-graphics/lang:eng) in the UNHCR IM Toolkit
+* [Training Material on Visualizations](file/learning_files/viz_general/Heer-EffectiveDataVisualization.pdf) of the UNHCR TIME Training (Training on Information Management in Emergencies)
