@@ -1,4 +1,5 @@
 
+
 # This is the server logic of a Shiny web application. You can run the 
 # application by clicking 'Run App' above.
 #
@@ -161,31 +162,45 @@ shinyServer(function(input, output) {
   ##### STATISTICS ####
   
   output$table_excel_stat <- renderDataTable({
-    excel_stat
+  excel_stat
+  excel_stat$Topic <- paste0("<a href='",excel_stat$Link.for.Manual,"' target='_blank'>",excel_stat$Topic,"</a>")  
+  return(excel_stat)
   }, escape = FALSE)
   
   output$table_r_stat <- renderDataTable({
     r_stat
+    r_stat$Topic <- paste0("<a href='",r_stat$Link.for.Manual,"' target='_blank'>",r_stat$Topic,"</a>")  
+    return(r_stat)
   }, escape = FALSE)
   
   output$table_spss_stat <- renderDataTable({
     spss_stat
+    spss_stat$Topic <- paste0("<a href='",spss_stat$Link.for.Manual,"' target='_blank'>",spss_stat$Topic,"</a>")  
+    return(spss_stat)
   }, escape = FALSE)
   
   output$table_pspp_stat <- renderDataTable({
     pspp_stat
+    pspp_stat$Topic <- paste0("<a href='",pspp_stat$Link.for.Manual,"' target='_blank'>",pspp_stat$Topic,"</a>")  
+    return(pspp_stat)
   }, escape = FALSE)
   
   output$table_stata_stat <- renderDataTable({
     stata_stat
+    stata_stat$Topic <- paste0("<a href='",stata_stat$Link.for.Manual,"' target='_blank'>",stata_stat$Topic,"</a>")  
+    return(stata_stat)
   }, escape = FALSE)
   
   output$table_sas_stat <- renderDataTable({
     sas_stat
+    sas_stat$Topic <- paste0("<a href='",sas_stat$Link.for.Manual,"' target='_blank'>",sas_stat$Topic,"</a>")  
+    return(sas_stat)
   }, escape = FALSE)
   
   output$table_matlab_stat <- renderDataTable({
     matlab_stat
+    matlab_stat$Topic <- paste0("<a href='",matlab_stat$Link.for.Manual,"' target='_blank'>",matlab_stat$Topic,"</a>")  
+    return(matlab_stat)
   }, escape = FALSE)
   
   
@@ -193,38 +208,56 @@ shinyServer(function(input, output) {
   
   output$table_excel_infogr <- renderDataTable({
     excel_infogr
+    excel_infogr$Topic <- paste0("<a href='",excel_infogr$Link.for.Manual,"' target='_blank'>",excel_infogr$Topic,"</a>")  
+    return(excel_infogr)
   }, escape = FALSE)
   
   output$table_r_infogr <- renderDataTable({
     r_infogr
+    r_infogr$Topic <- paste0("<a href='",r_infogr$Link.for.Manual,"' target='_blank'>",r_infogr$Topic,"</a>")  
+    return(r_infogr)
   }, escape = FALSE)
   
   output$table_spss_infogr <- renderDataTable({
     spss_infogr
+    spss_infogr$Topic <- paste0("<a href='",spss_infogr$Link.for.Manual,"' target='_blank'>",spss_infogr$Topic,"</a>")  
+    return(spss_infogr)
   }, escape = FALSE)
   
   output$table_pspp_infogr <- renderDataTable({
     pspp_infogr
+    pspp_infogr$Topic <- paste0("<a href='",pspp_infogr$Link.for.Manual,"' target='_blank'>",pspp_infogr$Topic,"</a>")  
+    return(pspp_infogr)
   }, escape = FALSE)
   
   output$table_stata_infogr <- renderDataTable({
     stata_infogr
+    stata_infogr$Topic <- paste0("<a href='",stata_infogr$Link.for.Manual,"' target='_blank'>",stata_infogr$Topic,"</a>")  
+    return(stata_infogr)
   }, escape = FALSE)
   
   output$table_sas_infogr <- renderDataTable({
     sas_infogr
+    sas_infogr$Topic <- paste0("<a href='",sas_infogr$Link.for.Manual,"' target='_blank'>",sas_infogr$Topic,"</a>")  
+    return(sas_infogr)
   }, escape = FALSE)
   
   output$table_matlab_infogr <- renderDataTable({
     matlab_infogr
+    spss_infogr$Topic <- paste0("<a href='",spss_infogr$Link.for.Manual,"' target='_blank'>",spss_infogr$Topic,"</a>")  
+    return(spss_infogr)
   }, escape = FALSE)
   
   output$table_tableau_infogr <- renderDataTable({
     tableau_infogr
+    tableau_infogr$Topic <- paste0("<a href='",tableau_infogr$Link.for.Manual,"' target='_blank'>",tableau_infogr$Topic,"</a>")  
+    return(tableau_infogr)
   }, escape = FALSE)
   
   output$table_powerbi_infogr <- renderDataTable({
     powerbi_infogr
+    powerbi_infogr$Topic <- paste0("<a href='",powerbi_infogr$Link.for.Manual,"' target='_blank'>",powerbi_infogr$Topic,"</a>")  
+    return(powerbi_infogr)
   }, escape = FALSE)
   
   
@@ -232,6 +265,8 @@ shinyServer(function(input, output) {
 
   output$table_arcgis_desktop <- renderDataTable({
     arcgis_desktop
+    arcgis_desktop$Topic <- paste0("<a href='",arcgis_desktop$Link.for.Manual,"' target='_blank'>",arcgis_desktop$Topic,"</a>")  
+    return(arcgis_desktop)
   }, escape = FALSE)
   
   
