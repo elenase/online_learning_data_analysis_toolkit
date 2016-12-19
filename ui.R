@@ -8,7 +8,6 @@
 #
 
 
-
 # USER INTERFACE
 
 source("data.R", local=TRUE)  # Connect to data.R where you may see all the data inputs

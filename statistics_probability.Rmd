@@ -33,7 +33,7 @@ Once this course will be completed, you will be able to:
 *	understand the law of large numbers and the central limit theorem;
 *	compute the covariance and correlation between jointly distributed variables.
 
-[Introduction](/class1-intro.pdf)
+[Introduction](www.google.de)
 Counting and Sets - Slides
 Probability: Terminology and Examples - Slides
 Conditional Probability, Independence and Bayes' Theorem - Slides

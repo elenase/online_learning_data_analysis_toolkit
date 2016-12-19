@@ -1,7 +1,5 @@
 
 
-p <- c("shiny", "shinydashboard", "rmarkdown", "circlize", "data.table", "xlsx", "plotly")
-install.packages(p)
 
 
 
